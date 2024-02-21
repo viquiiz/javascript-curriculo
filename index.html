@@ -23,6 +23,7 @@
 <body>
 	<div class="container">
 
+		<!-- código da barra de navegação - a propriedade data-section serve para o javascript entender qual página deve ser mostrada de acordo com o botão clicado e com o id de cada section abaixo -->
 		<nav>
 			<ul>
 				<li class="nav-button" data-section="about-me-section">sobre mim</li>
@@ -32,6 +33,7 @@
 			</ul>
 		</nav>
 
+		<!-- código da seção de "sobre mim" -->
 		<section class="about-me active" id="about-me-section">
 			<div class="about-me-container">
 				<img src="assets/img/my-photo.png" alt="minha foto">
@@ -39,13 +41,13 @@
 				<div class="my-card">
 					<span>Oi! Eu sou a</span>
 					<h1>Victória Zanella</h1>
-					<div class="card-icons">
+					<div class="card-icons"> <!-- Abaixo código dos ícones que levam às redes sociais -->
 						<a href="https://www.linkedin.com/in/victoriazanella/" target="_blank"><img
 								src="assets/icons/linkedin-logo.png" alt="logo do LinkedIn"></a>
 						<a href="https://github.com/viquiiz" target="_blank"><img src="assets/icons/github-logo.png"
 								alt="logo do GitHub"></a>
 						<a href="assets/docs/cv.pdf" target="_blank" download><img src="assets/icons/cv-logo.png"
-								alt="logo do Currículo"></a>
+								alt="logo do Currículo"></a> <!-- currículo em pdf que pode ser baixado ao clicar no ícone -->
 					</div>
 				</div>
 
@@ -63,6 +65,7 @@
 			</div>
 		</section>
 
+		<!-- código da seção de "educação" -->
 		<section class="education hidden" id="education-section">
 			<div class="education-container">
 				<div class="education-university">
@@ -104,6 +107,7 @@
 			</div>
 		</section>
 
+		<!-- código da seção de "projetos" - existem as classes card 1 e card 2 porque uma tem orientação à esquerda e outra à direita -->
 		<section class="projects hidden" id="projects-section">
 			<div class="projects-container">
 				<h2>Projetos</h2>
@@ -149,6 +153,7 @@
 			</div>
 		</section>
 
+		<!-- código da seção de "contato" -->
 		<section class="contact hidden" id="contact-section">
 			<div class="contact-container">
 				<div class="contact-card">
@@ -170,7 +175,7 @@
 				</div>
 				<div class="contact-form">
 					<form action="https://api.web3forms.com/submit" method="POST">
-						<input type="hidden" name="access_key" value="ddce562c-7268-4e38-8413-623e508c00b3">
+						<input type="hidden" name="access_key" value="ddce562c-7268-4e38-8413-623e508c00b3"> <!-- essa linha é uma api externa para deixar o formulário funcional -->
 
 						<label class="input-title" for="name">Seu nome</label>
 						<input type="text" id="name" name="Nome" required>
@@ -186,9 +191,7 @@
 				</div>
 			</div>
 		</section>
-
 	</div>
-
 
 	<script src="scripts/script.js"></script>
 </body>

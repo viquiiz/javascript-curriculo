@@ -1,3 +1,5 @@
+/* Stylesheet global */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -30,6 +32,8 @@ body {
 .active {
 	display: flex;
 }
+
+/* media queries globais */
 
 @media screen and (max-width: 1320px) {
 	.container {

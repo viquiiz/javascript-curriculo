@@ -1,3 +1,5 @@
+/* Stylesheet da seção sobre mim */
+
 .about-me-container {
 	display: flex;
 	flex-direction: column;
@@ -38,6 +40,8 @@
 	line-height: 1.5rem;
 }
 
+/* media queries da seção sobre mim */
+
 @media screen and (max-width: 1380px) {
 	.about-me-container>img {
 		align-self: center;
@@ -48,13 +52,4 @@
 		margin: 0.8rem;
 		align-self: center;
 	}
-
-	/* 	.my-card>h1 {
-		font-size: 2.6rem;
-	}
-
-	.my-card>span {
-		font-size: 1.3rem;
-	} */
-
 }
