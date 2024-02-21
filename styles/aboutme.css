@@ -1,0 +1,60 @@
+.about-me-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	margin: 5rem 0 2rem 0;
+}
+
+.about-me-container>img {
+	align-self: end;
+	width: 15rem;
+	height: auto;
+	margin: 2.18rem 2rem 0 0;
+	border-radius: 50%;
+}
+
+.my-card {
+	border-left: solid #FFAB33 3px;
+	padding-left: 1.18rem;
+	margin-left: 2.25rem;
+}
+
+.my-card>span {
+	font-size: 1.5rem;
+}
+
+.my-card>h1 {
+	font-size: 4rem;
+}
+
+.card-icons>img {
+	cursor: pointer;
+}
+
+.intro {
+	text-align: center;
+	margin: 2rem 2.25rem 0 2.25rem;
+	line-height: 1.5rem;
+}
+
+@media screen and (max-width: 1380px) {
+	.about-me-container>img {
+		align-self: center;
+		margin: 0.6rem;
+	}
+
+	.my-card {
+		margin: 0.8rem;
+		align-self: center;
+	}
+
+	/* 	.my-card>h1 {
+		font-size: 2.6rem;
+	}
+
+	.my-card>span {
+		font-size: 1.3rem;
+	} */
+
+}

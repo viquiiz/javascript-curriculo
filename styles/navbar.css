@@ -1,0 +1,47 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	top: 0;
+	background-color: rgba(230, 230, 230, 0.9);
+	width: 30vw;
+	border-radius: 0.5rem 0.5rem 0 0;
+}
+
+nav>ul {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 1.5rem 2rem;
+}
+
+
+.nav-button {
+	list-style: none;
+	cursor: pointer;
+	font-size: 1rem;
+	transition: all 0.3s;
+}
+
+.nav-button:hover {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1320px) {
+	nav {
+		width: 50vw;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	nav {
+		width: 80vw;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	nav {
+		width: 100vw;
+	}
+}

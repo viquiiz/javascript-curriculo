@@ -1,0 +1,47 @@
+.education-container {
+	display: flex;
+	flex-direction: column;
+	border-left: solid black 1px;
+	padding: 0.2rem 1rem 0 1.5rem;
+	margin: 5rem 0.4rem 2rem 4.25rem;
+}
+
+.education-university,
+.education-certificades {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.education-university>h2 {
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.education-certificades>h2 {
+	margin-top: 2.4rem;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.education-university>.education-card {
+	display: flex;
+	flex-direction: column;
+	margin: 1rem 0;
+}
+
+.education-certificades>.education-card {
+	display: flex;
+	flex-direction: column;
+	margin: 0.7rem 0;
+}
+
+.subtitle {
+	font-size: 1rem;
+	margin: 0.1rem 0;
+}
+
+.title {
+	font-size: 1.4rem;
+	font-weight: normal;
+}

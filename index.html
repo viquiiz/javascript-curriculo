@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Victória Zanella</title>
+	<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+	<link href="styles/navbar.css" rel="stylesheet" type="text/css" />
+	<link href="styles/aboutme.css" rel="stylesheet" type="text/css" />
+	<link href="styles/education.css" rel="stylesheet" type="text/css" />
+	<link href="styles/projects.css" rel="stylesheet" type="text/css" />
+	<link href="styles/contact.css" rel="stylesheet" type="text/css" />
+
+	<!-- fonte usada no projeto: Rubik -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+		rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="container">
+
+		<nav>
+			<ul>
+				<li class="nav-button" data-section="about-me-section">sobre mim</li>
+				<li class="nav-button" data-section="education-section">educação</li>
+				<li class="nav-button" data-section="projects-section">projetos</li>
+				<li class="nav-button" data-section="contact-section">contato</li>
+			</ul>
+		</nav>
+
+		<section class="about-me active" id="about-me-section">
+			<div class="about-me-container">
+				<img src="assets/img/my-photo.png" alt="minha foto">
+
+				<div class="my-card">
+					<span>Oi! Eu sou a</span>
+					<h1>Victória Zanella</h1>
+					<div class="card-icons">
+						<a href="https://www.linkedin.com/in/victoriazanella/" target="_blank"><img
+								src="assets/icons/linkedin-logo.png" alt="logo do LinkedIn"></a>
+						<a href="https://github.com/viquiiz" target="_blank"><img src="assets/icons/github-logo.png"
+								alt="logo do GitHub"></a>
+						<a href="assets/docs/cv.pdf" target="_blank" download><img src="assets/icons/cv-logo.png"
+								alt="logo do Currículo"></a>
+					</div>
+				</div>
+
+				<span class="intro">Oi! Meu nome é Victória, tenho 26 anos e sou do Rio Grande do Sul. Tenho formação em
+					Licenciatura em História, porém estou em transição para a área da tecnologia. Comecei a estudar
+					programação por curiosidade há cerca de dois anos. Realmente me encontrei na área e hoje sou
+					estudante
+					de Análise e Desenvolvimento de Sistemas e, além disso, monitora do curso. Procuro sempre estar
+					participando de cursos, projetos e bootcamps para aprimorar meu conhecimento. Hoje trabalho no IBGE
+					como
+					Agente de Pesquisas e Mapeamento, atuando em diversas pesquisas, como a PNAD Contínua que é tão
+					importante para o conhecimento do nosso país. Também falo inglês fluente e estou estudando
+					espanhol.
+				</span>
+			</div>
+		</section>
+
+		<section class="education hidden" id="education-section">
+			<div class="education-container">
+				<div class="education-university">
+					<h2>Educação</h2>
+					<div class="education-card">
+						<span class="subtitle"> 2023 - atual</span>
+						<span class="subtitle"> UNINTER Centro Universitário Internacional</span>
+						<h3 class="title">Análise e Desenvolvimento de Sistemas</h3>
+					</div>
+					<div class="education-card">
+						<span class="subtitle"> 2015 - 2019</span>
+						<span class="subtitle"> UCS - Universidade de Caxias do Sul</span>
+						<h3 class="title">Licenciatura Plena em História</h3>
+					</div>
+				</div>
+				<div class="education-certificades">
+					<h2>Outros cursos e certificados</h2>
+					<div class="education-card">
+						<span class="subtitle">Loiane Training - 07/2023 - 30h</span>
+						<h3 class="title">Java Básico e Orientação a Objetos</h3>
+					</div>
+					<div class="education-card">
+						<span class="subtitle">DIO - 10/2023 - 115h</span>
+						<h3 class="title">Santander Bootcamp 2023 - Fullstack Java + Angular</h3>
+					</div>
+					<div class="education-card">
+						<span class="subtitle">Python Brasil - 11/2023 - 21h</span>
+						<h3 class="title">Python Brasil 2023</h3>
+					</div>
+					<div class="education-card">
+						<span class="subtitle">DIO - 01/2024 - 68h</span>
+						<h3 class="title">Coding The Future Banco PAN - Desenvolvimento Frontend com Angular</h3>
+					</div>
+					<div class="education-card">
+						<span class="subtitle">DIO - 01/2024 - 68h</span>
+						<h3 class="title">Coding The Future Banco PAN - Desenvolvimento Frontend com Angular</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="projects hidden" id="projects-section">
+			<div class="projects-container">
+				<h2>Projetos</h2>
+				<div class="project-card-1">
+					<h3><a href="https://github.com/viquiiz/pokedex" target="_blank">Pokédex <span>⤤</span></a></h3>
+					<p>Projeto clássico desenvolvido apenas com JavaScript, HTML e CSS. Utiliza o consumo da PokéAPI
+						para
+						mostrar os dados dos Pokémon.</p>
+				</div>
+				<div class="project-card-2">
+					<h3><a href="https://github.com/viquiiz/angular-buzzfeed-clone" target="_blank">BuzzFeed Clone
+							<span>⤤</span></a></h3>
+					<p>Página criada para aplicar conhecimentos sobre componentização. Desenvolvida com TypeScript, HTML
+						e
+						CSS em conjunto com o framework Angular e inspirada nos testes do site BuzzFeed.</p>
+				</div>
+				<div class="project-card-1">
+					<h3><a href="https://github.com/viquiiz/python-app-petshop" target="_blank">Sistema de Cobrança
+							<span>⤤</span></a></h3>
+					<p>Exercício simulando um sistema de cobrança de banho para cachorros em um petshop. Demonstra uso
+						de
+						loops, estruturas condicionais e tratamento de exceções em Python</p>
+				</div>
+				<div class="project-card-2">
+					<h3><a href="https://github.com/viquiiz/python-app-cadastro-colaboradores"
+							target="_blank">Gerenciamento de funcionários <span>⤤</span></a></h3>
+					<p>Aplicativo criado para a faculdade demonstrando conceitos de lógica de programação. Desenvolvido
+						em
+						Python, demonstra um fluxo com opções de cadastrar, remover e consultar colaboradores.</p>
+				</div>
+				<div class="project-card-1">
+					<h3><a href="https://github.com/viquiiz/python-gestao-filmes" target="_blank">Acervo de filmes
+							<span>⤤</span></a></h3>
+					<p>Programa que permite armazenar, consultar, deletar e alterar filmes de uma base de dados.</p>
+				</div>
+				<div class="project-card-2">
+					<h3><a href="https://github.com/viquiiz/frontend-spotify-clone" target="_blank">Spotify Clone
+							<span>⤤</span></a></h3>
+					<p>Página desenvolvida durante a Imersão Front-End da Alura. Usado
+						apenas HTML, CSS e JavaScript. Meu projeto também permite ouvir as
+						músicas dos artistas no navegador.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact hidden" id="contact-section">
+			<div class="contact-container">
+				<div class="contact-card">
+					<div class="contact-card-title">
+						<span>Entre em</span>
+						<h2>Contato</h2>
+						<div class="card-icons">
+							<a href="https://www.linkedin.com/in/victoriazanella/" target="_blank"><img
+									src="assets/icons/linkedin-logo.png" alt="logo do LinkedIn"></a>
+							<a href="https://github.com/viquiiz" target="_blank"><img src="assets/icons/github-logo.png"
+									alt="logo do GitHub"></a>
+							<a href="assets/docs/cv.pdf" target="_blank" download><img src="assets/icons/cv-logo.png"
+									alt="logo do Currículo"></a>
+						</div>
+					</div>
+					<div class="contact-card-img">
+						<img src="assets/img/bunny-gif.gif" alt="Gif de um coelhinho digitando">
+					</div>
+				</div>
+				<div class="contact-form">
+					<form action="https://api.web3forms.com/submit" method="POST">
+						<input type="hidden" name="access_key" value="ddce562c-7268-4e38-8413-623e508c00b3">
+
+						<label class="input-title" for="name">Seu nome</label>
+						<input type="text" id="name" name="Nome" required>
+
+						<label class="input-title" for="email">Seu e-mail</label>
+						<input type="email" id="email" name="Email" required>
+
+						<label class="input-title" for="message">Sua mensagem</label>
+						<textarea id="message" rows="8" name="Mensagem" required></textarea>
+
+						<button class="submit-button" type="submit">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+
+	<script src="scripts/script.js"></script>
+</body>
+
+</html>
